@@ -1,0 +1,66 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0A0A;
+}
+
+h1, h2, h3, h4, h5, h6, p, li{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#main-container {
+  background-color: #1D1D1D;
+  margin: 3rem auto 0 auto;
+  padding: .5rem;
+  max-width: 500px;
+}
+
+#result-container {
+  color: white;
+  text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
+  font-family: sans-serif;
+}
+
+#cash {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: .7rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+#purchase-btn {
+  display: block;
+  margin-bottom: .7rem;
+  width: 100%;
+  font-size: 1.3rem;
+  height: 2.5rem;
+}
+
+#cid-container {
+  padding: .5rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+#cid-container-title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#cid-container > ul > li {
+  list-style: none;
+}
+
+#price-container {
+  color: white;
+}
+
+#price {
+  font-size: 5rem;
+  margin: 1rem 0;
+}
