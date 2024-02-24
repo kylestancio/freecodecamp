@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, p {
+    @apply text-zinc-800
+  }
+
+  a {
+    @apply underline underline-offset-4 text-sky-800 hover:text-sky-600 visited:text-orange-500 
+  }
+
+  h1 {
+    @apply text-3xl  font-black
+  }
+  h2 {
+    @apply text-2xl font-bold
+  }
+  h3 {
+    @apply text-xl font-semibold
+  }
+  h4 {
+    @apply text-lg font-medium
+  }
+  h5 {
+    @apply text-base
+  }
+  h6 {
+    @apply text-sm
+  }
+}
