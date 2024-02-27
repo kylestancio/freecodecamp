@@ -4,12 +4,16 @@ Hi everyone! I've created this repository to store all of my Free Code Camp cert
 
 ## Cash Register
 
-Cash Register Description
+A functional cash register that counts the change due as well.
 
 ## Markdown Previewer
 
-Markdown Previewer Description
+An application where you can input markdown syntax and preview it in real time.
 
 ## Pokemon Search App
 
-Pokemon Search App Description
+This is a web-based application to search for pokemon using their names or ids.
+
+## Drum Machine
+
+This is a web-based drum machine made using ReactJS, and NextJS.
