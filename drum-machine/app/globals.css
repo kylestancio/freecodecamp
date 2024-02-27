@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .drum-pad {
+    @apply bg-zinc-200 rounded-md flex hover:bg-zinc-300 active:bg-zinc-500 cursor-pointer;
+  }
+}
